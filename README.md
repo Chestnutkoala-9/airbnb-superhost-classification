@@ -4,7 +4,7 @@ This project aims to classify Airbnb hosts as superhosts or non-superhosts based
 
 ## Project Structure
 
-[InsideAirbnb](http://insideairbnb.com/) contains Jupyter notebooks used for data preprocessing, feature engineering, and model training.
+The [Airbnb_Superhost.ipynb](https://github.com/Chestnutkoala-9/airbnb-superhost-classification/blob/main/Airbnb_Superhost.ipynb) contains Jupyter notebooks used for data preprocessing, feature engineering, and model training.
 
 ## Dataset
 The dataset used for this project includes the following files:
