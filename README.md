@@ -19,6 +19,12 @@ The dataset used for this project includes the following files:
 
 They can be found in [InsideAirbnb](http://insideairbnb.com/).
 
+## Text Preprocess models
+- TD-IDF matrix 
+- Word Embeddings: Word2Vec
+
+The traditional TF-IDF only considers individual word tokens and may not capture the sentiment or meaning of multi-word expressions. For example, if the customer writes "not clean," TF-IDF matrix cannot distinguish this comment with "clean". Therefore, I tried Word2Vec, which can can learn to encode semantic relationships between words, including capturing the sentiment and meaning of multi-word expressions.
+
 ## Classification Results and Implications
 
 Among the classifiers used, including Random Forest, Logistic Regression, Naive Bayes, and K-means Clustering, the top-performing model was Logistic Regression with an accuracy of 71.2% and an F1-score of 0.641. This suggests that the features we incorporated, such as textual descriptions, numerical attributes, and customer reviews, can provide valuable insights for distinguishing Superhost listings from others.
