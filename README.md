@@ -32,3 +32,7 @@ Among the classifiers used, including Random Forest, Logistic Regression, Naive 
 The classification results imply that the Superhost program may not be solely determined by textual and numerical factors, but rather by a combination of various aspects, including customer satisfaction, host responsiveness, and overall experience. It raises questions about the fairness and effectiveness of the Superhost program in accurately recognizing exceptional hosts.
 
 Furthermore, the ranking of the classifiers based on their performance indicates the varying effectiveness of different models in capturing the underlying patterns and characteristics of Superhost listings. This highlights the importance of choosing an appropriate classifier based on the specific problem and dataset. It also emphasizes the need for further research and exploration to gain a deeper understanding of the factors influencing Superhost recognition and the implications for both hosts and guests on the Airbnb platform.
+
+## Future Improvements
+
+In order to further improve the classification accuracy, one potential avenue to explore is the use of n-grams. Currently, the classification models primarily rely on individual words for prediction. By incorporating n-grams, which are sequences of adjacent words, we can capture more contextual information and potentially enhance the model's understanding of the text. 
